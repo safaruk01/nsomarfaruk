@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    outline: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none !important;
+}
+ul,li{
+    list-style-type: none;
+}
+img{
+    border: 0;
+}
+body{
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Lobster', cursive;
+   font-family: 'Monoton', cursive;  
+}
+/*background image part start*/
+.background_image{
+    background: url(../images/backgroun.jpg);
+    height: 100%;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*background image part end*/
+
+/*headear part html strat*/
+.header_part1{
+    background: #0d59d3;
+}
+@font-face{
+    font-family: myCookie;
+    src:url(Cookie-Regular.ttf);
+}
+.header_logo a{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Cookie; 
+    color: #000000;
+        transition: all linear .450s;
+    -webkit-transition: all linear .3s.
+        -o-transition: all linear .3s.
+        -ms-transition: all linear .3s.
+        -moz-transition: all linear .3s.
+}
+.header_logo a:hover{
+    color: #fff;
+    transition: all linear .450s;
+    -webkit-transition: all linear .3s.
+        -o-transition: all linear .3s.
+        -ms-transition: all linear .3s.
+        -moz-transition: all linear .3s.
+}
+.header_logo a:hover img{
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.header_part2 ul li{
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 5px;
+    margin-left: 5px;
+    text-align: center;
+           transition: all linear .4s;
+    -webkit-transition: all linear .4s.
+        -o-transition: all linear .4s.
+        -ms-transition: all linear .4s.
+        -moz-transition: all linear .4s. 
+}
+.header_part2 ul li a{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.header_part2 ul li a:active {
+    background-color: aqua;
+    color: #fdcf51;
+}
+.header_part2 ul li:hover a {
+    color: #ffffff;
+        transition: all linear .4s;
+    -webkit-transition: all linear .4s.
+        -o-transition: all linear .4s.
+        -ms-transition: all linear .4s.
+        -moz-transition: all linear .4s.
+    
+}
+.header_icon{
+    margin-left: 230px;
+}
+.header_icon ul li{
+    float: left;
+    padding: 0px 7px;
+    transition: all linear .3s;
+}
+.header_icon ul li a{
+    color: #000000;
+    font-size: 15px;       
+}
+.header_icon ul li:hover a{
+    color: #ffffff;
+    transition: all linear .3s;
+}
+.header_icon ul li:last-child{
+    margin-left: 2px;
+}
+/*header part html end*/
