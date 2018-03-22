@@ -32,6 +32,41 @@ body{
 .header_part1{
     background: #0d59d3;
 }
+@media screen and (max-width: 576px) {
+  .header_logo a{
+    display: none;
+  }
+    .header_part2{
+        text-align: center;
+    } 
+    .header_part2 ul li{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .header_part2 ul li a{
+        text-align: center;
+    }
+    .header_icon{
+        display: none;
+    }
+    .about_part2 img {
+    margin: 20px 50px 0px 71px !important;
+}
+    .about_part1 {
+    margin: 25px 0px 0px 119px !important;
+      }
+    .about_part2 h3 {
+    margin: 13px 0px 15px 146px !important;
+}
+   .hire_button {
+    margin: 0px 0px 20px 115px !important;
+    padding: 3px 38px !important;
+
+} 
+    .about_part1 h2{
+        
+    }
+}
 @font-face{
     font-family: myCookie;
     src:url(Cookie-Regular.ttf);
@@ -112,3 +147,54 @@ body{
     margin-left: 2px;
 }
 /*header part html end*/
+/*about part start*/
+.about_part{
+    background: #ffffff;
+}
+
+.about_part1{
+    margin: 20px 0px 20px 450px;
+}
+.about_part1 h2{
+    color: #000000;
+    border-bottom: 2px dotted #000;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.about_part2 img{
+    margin: 20px 50px 10px 150px;
+}
+.about_part2 h3{
+    font-size: 14px;
+    margin: 0px 0px 15px 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.about_part2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    margin: 0px 5px 20px 15px;
+    text-align:justify;
+    text-decoration: none;
+}
+.hire_button{
+    border: 1px solid #000000;
+    display: inline-block;
+    margin: 0px 0px 20px 200px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: all linear .3s;
+}
+.hire_button:hover{
+    background: #e5d72b;
+    border-color: #145ed4;
+    transition: all linear .3s;
+}
+.hire_button a{
+     font-family: 'Open Sans', sans-serif;
+    color:#000000;
+    font-size: 20px;
+}
+/*about part end*/
