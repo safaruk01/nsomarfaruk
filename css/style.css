@@ -15,8 +15,6 @@ img{
 body{
    font-family: 'Open Sans', sans-serif;
    font-family: 'Oswald', sans-serif;
-   font-family: 'Lobster', cursive;
-   font-family: 'Monoton', cursive;  
 }
 /*background image part start*/
 .background_image{
@@ -25,14 +23,20 @@ body{
         background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 /*background image part end*/
 
 /*headear part html strat*/
+
 .header_part1{
     background: #0d59d3;
+
 }
+
+
 @media screen and (max-width: 576px) {
+
   .header_logo a{
     display: none;
   }
@@ -63,10 +67,30 @@ body{
     padding: 3px 38px !important;
 
 } 
-    .about_part1 h2{
-        
-    }
+    .notice_part2 h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px !important;
+    color: #ea0f0f;
+    font-weight: 800;
+    margin-left: 130px !important;
+    border: 2px solid #09f012;
+    margin-top: 0px;
 }
+.marquee_part {
+    margin-bottom: 0px !important;
+    margin-top: -66px !important;
+}
+.skill_head h2 {
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin: 17px 0px 20px 109px !important;
+}    
+    
+    
+}
+
+
+
 @font-face{
     font-family: myCookie;
     src:url(Cookie-Regular.ttf);
@@ -147,6 +171,32 @@ body{
     margin-left: 2px;
 }
 /*header part html end*/
+
+/*notice part start*/
+.notice_part{
+    background: #fff;
+   
+}
+.notice_part2 h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px !important;
+    color: #ea0f0f;
+    font-weight: 800;
+    margin-left: 35px;
+    border: 2px solid #09f012;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.24);
+    margin-top: 60px;
+}
+.marquee_part marquee {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 60px;
+    font-style: italic;
+    font-weight: 800;
+    color: #000;
+}
+
+/*notice part end*/
 /*about part start*/
 .about_part{
     background: #ffffff;
@@ -154,6 +204,7 @@ body{
 
 .about_part1{
     margin: 20px 0px 20px 450px;
+    position: relative;
 }
 .about_part1 h2{
     color: #000000;
@@ -183,7 +234,7 @@ body{
     border: 1px solid #000000;
     display: inline-block;
     margin: 0px 0px 20px 200px;
-    padding: 10px 30px;
+    padding: 10px 40px;
     border-radius: 20px;
     transition: all linear .3s;
 }
@@ -195,6 +246,76 @@ body{
 .hire_button a{
      font-family: 'Open Sans', sans-serif;
     color:#000000;
-    font-size: 20px;
+    font-size: 30px;
 }
 /*about part end*/
+
+/*skill part start*/
+.skill_part{
+    background: #545756;
+    border-radius: 20px;
+    border: 2px solid #000;
+}
+.skill_head h2{
+    background: #fff !important;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin: 20px 0px 20px 450px;
+    
+}
+.skill_part2 img{
+    margin: 20px 0px 10px 105px!important;
+    transform: scale(0.8)
+}
+.skill_part2 img:hover{
+    border: 1.5px solid #3ae267;
+    border-radius: 50%;
+     transform: scale(1)
+}
+.skill_part3 h3{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0px 10px 60px;
+    font-weight: 800;
+}
+
+.skill_part3 p{
+        font-size: 15px;
+    color: #fff;
+         font-family: 'Open Sans', sans-serif;
+    margin: 10px 0px 10px 5px;
+    font-weight: 500;
+    text-align: justify;
+    backface-visibility: visible; 
+}
+
+button, input, optgroup, select, textarea {
+    margin:10px 0px 10px 20px !important;
+    font-family: 'Open Sans', sans-serif
+}
+.skill_part3{
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.skill_part3:hover {
+    border:2px solid #36d430;
+}
+/*skill part end*/
+
+#myBtn{
+    position: fixed;
+    margin-left: 660px !important;
+    overflow: visible;
+    background: none;
+    border: none;
+}
+.top_button{
+    color: #16d62d;
+    font-size: 40px !important;
+}
+
+/* Style the navbar */
+
